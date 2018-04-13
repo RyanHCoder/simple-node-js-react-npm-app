@@ -13,6 +13,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+	<h1>Custom message: {this.props.message}</h1>
       </div>
     );
   }
